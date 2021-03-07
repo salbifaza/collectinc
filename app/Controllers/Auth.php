@@ -67,7 +67,7 @@ class Auth extends BaseController
                     ];
                     $this->session->set($sessData);
 
-                    return redirect()->to(site_url('home/index'));
+                    return redirect()->to(site_url());
                 }
             } else {
                 $this->session->setFlashData('errors', ['User Tidak Ditemukan']);
@@ -78,6 +78,7 @@ class Auth extends BaseController
     public function logout()
     {
         $this->session->destroy();
+
         return redirect()->to(site_url('auth/login'));
     }
 }

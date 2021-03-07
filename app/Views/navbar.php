@@ -4,7 +4,8 @@ $session = session();
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="img/logo2.PNG" style="width:28px;">
+            <img src="<?= base_url("img/logo_collect.png") ?>" width="50" class="d-inline-block align-middle mr">
+            <span class="text-uppercase font-weight-bold">Collect.inc</span>
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -15,7 +16,7 @@ $session = session();
             <ul class="navbar-nav mr-auto">
                 <?php if ($session->get('isLoggedIn')) : ?>
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Home</a>
+                        <a class="nav-link" href="<?= site_url() ?>">Home</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="<?= site_url('home/index') ?>">About </a>
@@ -34,7 +35,7 @@ $session = session();
                     </li>
                 <?php else : ?>
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Home </a>
+                        <a class="nav-link" href="<?= site_url() ?>">Home </a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="<?= site_url('home/index') ?>">About </a>
@@ -54,18 +55,19 @@ $session = session();
                 <ul class="navbar-nav mr-auto">
                     <?php if ($session->get('isLoggedIn')) : ?>
                         <li class="nav-item">
-                            <a class="btn btn-success" href="<?= site_url('auth/logout') ?>">Logout</a>
+                            <a class="btn btn-light" href="<?= site_url('auth/logout') ?>">Logout</a>
                         </li>
                     <?php else : ?>
                         <li class="nav-item">
-                            <a class="btn btn-success" href="<?= site_url('auth/login') ?>">Login</a>
+                            <a class="btn btn-light" href="<?= site_url('auth/login') ?>">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-success" href="<?= site_url('auth/register') ?>">Register</a>
+                            <a class="btn btn-light" href="<?= site_url('auth/register') ?>">Register</a>
                         </li>
                     <?php endif ?>
                 </ul>
             </div>
         </div>
     </div>
+
 </nav>

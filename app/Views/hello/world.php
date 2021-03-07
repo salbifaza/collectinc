@@ -143,8 +143,115 @@
         </div>
     </div>
 </div>
+<br>
 
 <!--- Cards --->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="<?= base_url('img/background.png') ?>" alt="" class="card-imd-top">
+                <div class="card-body">
+                    <h4 class="card-title"></h4>
+                    <p class="card-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro rem sapiente dolorum veniam voluptates dicta similique sed numquam incidunt? Eum dignissimos beatae numquam magni architecto ducimus quae rerum eligendi! Ut!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="<?= base_url('img/background.png') ?>" alt="" class="card-imd-top">
+                <div class="card-body">
+                    <h4 class="card-title"></h4>
+                    <p class="card-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro rem sapiente dolorum veniam voluptates dicta similique sed numquam incidunt? Eum dignissimos beatae numquam magni architecto ducimus quae rerum eligendi! Ut!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="<?= base_url('img/background.png') ?>" alt="" class="card-imd-top">
+                <div class="card-body">
+                    <h4 class="card-title"></h4>
+                    <p class="card-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro rem sapiente dolorum veniam voluptates dicta similique sed numquam incidunt? Eum dignissimos beatae numquam magni architecto ducimus quae rerum eligendi! Ut!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br><br>
 
 
+<!--- Akhiran --->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-lg-6">
+            <h2>If you built it...</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repudiandae deserunt dolores odio cumque ut debitis earum ratione veniam eius fugit vitae laborum, reprehenderit corporis reiciendis repellendus dolorem enim. Incidunt?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non corrupti rem temporibus, maxime perspiciatis soluta, magnam est maiores quidem aspernatur pariatur laborum! Iusto dignissimos doloribus nisi voluptate, architecto obcaecati.</p>
+        </div>
+        <div class="col-lg-6">
+            <img src="<?= base_url("img/background.png") ?>" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+<!--- Connect --->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+
+<!--- Footer --->
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="<?= base_url("img/logo.png") ?> " alt="">
+                <hr class="light">
+                <p>No. Telp</p>
+                <p>e-mail</p>
+                <p>Alamat</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Our Hour</h5>
+                <hr class="light">
+                <p>Monday: 9am - 5pm</p>
+                <p>Saturday: 10am - 5pm</p>
+                <p>Sunday: closed</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Our Hour</h5>
+                <hr class="light">
+                <p>Alamat</p>
+                <p>Alamat</p>
+                <p>Alamat</p>
+            </div>
+            <div class="col-12">
+                <hr class="light">
+                <h5>&copy;Collect.inc 2021</h5>
+                </hr>
+            </div>
+        </div>
+    </div>
+</footer>
 <?= $this->endSection() ?>

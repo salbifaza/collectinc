@@ -54,15 +54,15 @@ class Validation
 
 	public $register_errors = [
 		'username' => [
-			'required' => '{field} Harus Diisi',
-			'min_length' => '{field} Minimal 5 karakter',
+			'required' => 'Username Harus Diisi',
+			'min_length' => 'Username Minimal 5 karakter',
 		],
 		'password' => [
-			'required' => '{field} Harus Diisi',
+			'required' => 'Password Harus Diisi',
 		],
 		'repeatPassword' => [
-			'required' => '{field} Harus Diisi',
-			'matches' => '{field} Password tidak sama'
+			'required' => 'Repeat Password Harus Diisi',
+			'matches' => 'Repeat Password Password tidak sama'
 		],
 	];
 
@@ -77,11 +77,11 @@ class Validation
 
 	public $login_errors = [
 		'username' => [
-			'required' => '{field} Harus Diisi',
-			'min_length' => '{field} Minimal 5 karakter',
+			'required' => 'Username Harus Diisi',
+			'min_length' => 'Username Minimal 5 karakter',
 		],
 		'password' => [
-			'required' => '{field} Harus Diisi',
+			'required' => 'Password Harus Diisi',
 		],
 	];
 }

@@ -16,23 +16,13 @@
     <link href="<?= base_url('bootstrap-4.0.0/dist/css/bootstrap.min.css') ?>" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <style>
-        body {
-            padding-top: 5rem;
-        }
 
-        .starter-template {
-            padding: 3rem 1.5rem;
-            text-align: center;
-        }
-    </style>
 
 </head>
 
 <body>
 
     <?= $this->include('navbar') ?>
-
     <main role="main" class="container">
 
         <?= $this->renderSection('content'); ?>

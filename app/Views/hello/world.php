@@ -2,6 +2,8 @@
 <?= $this->section('content') ?>
 
 <br>
+<br>
+<br>
 
 <div class="container-fluid padding">
     <div class="row padding">
@@ -69,7 +71,11 @@
 </div>
 <hr>
 <br>
+<br>
 
+
+<br>
+<!---What can i sell--->
 <div class="container-fluid padding">
     <div class="row welcome text-center">
         <div class="col-12">
@@ -79,47 +85,68 @@
 </div>
 <br>
 
-<div class="container text-center">
-    <div class="row mx-auto my-auto">
-        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-            <div class="carousel-inner w-100" role="listbox">
-                <div class="carousel-item active">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="<?= base_url("img/fo2.png") ?>">
-                            <h3>Unfresh Groceries</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="<?= base_url("img/fo1.png") ?>">
-                            <h3>Kitchen Waste</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="<?= base_url("img/fo3.png") ?>">
-                            <h3>Leftover Food</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            
+        </div>
+        <div class="col-6 text-right">
+            <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="col-12">
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="img-fluid" src="<?= base_url("img/fo2.png") ?>">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Special title treatment</h4>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="img-fluid"  src="<?= base_url("img/fo1.png") ?>">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Special title treatment</h4>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="img-fluid" src="<?= base_url("img/fo3.png") ?>">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Special title treatment</h4>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
     </div>
-    <hr class="my-5">
 </div>
+
+<br>
+<br>
+<br>
 
 <!--- tiga Bootstrap --->
 <div class="container-fluid padding">
@@ -129,7 +156,7 @@
         </div>
     </div>
 </div>
-<br>
+
 
 <div class="container-fluid padding">
     <div class="row text-center padding">
@@ -229,7 +256,6 @@
 </div>
 
 <br>
-<br>
 
 <!--- Connect --->
 <div class="container-fluid padding">
@@ -245,6 +271,7 @@
         </div>
     </div>
 </div>
+<br>
 
 <!--- Footer --->
 <footer>

@@ -79,6 +79,6 @@ class Auth extends BaseController
     {
         $this->session->destroy();
 
-        return redirect()->to(site_url('auth/login'));
+        return redirect()->to(site_url());
     }
 }

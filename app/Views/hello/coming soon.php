@@ -1,12 +1,10 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
 
+
 <head>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <br>
@@ -16,13 +14,13 @@
     <div class="mx-auto col-md-12">
         <!--- Edit disini --->
         <h1 class="mb-3 animate__animated animate__fadeInDown animate__slow" contenteditable="true">What's to come from Collect.inc</h1>
-        <p>We're always developing Collect.inc to be better and to accomodate greater cause for climate change. These are 
+        <p>We're always developing Collect.inc to be better and to accomodate greater cause for climate change. These are
             a few things that's underway, which excites you the most?
         </p>
     </div>
- </div>
+</div>
 
- <div class="container-fluid padding">
+<div class="container-fluid padding">
     <div class="row text-center padding">
         <div class="col-sm-6">
             <img src="<?= base_url("img/part1.PNG") ?>" class="img-fluid">

@@ -2,13 +2,9 @@
 <?= $this->section('content') ?>
 
 <head>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Montserrat">
-  <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <br>
@@ -17,7 +13,7 @@
 
 <section id="judul">
     <div class="container-fluid padding">
-         <div class="row padding">
+        <div class="row padding">
             <div class="col-lg-6">
                 <h1 class="animate__animated animate__fadeInDown animate__slow">Collect your food waste</h1>
                 <h1 class="animate__animated animate__fadeInDown animate__slow">Combat climate change</h1>
@@ -86,7 +82,7 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-     </div>
+        </div>
     </div>
 </div>
 
@@ -110,7 +106,7 @@
 <div class="container">
     <div class="row">
         <div class="col-6">
-            
+
         </div>
         <div class="col-6 text-right">
             <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -139,7 +135,7 @@
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="card">
-                                    <img class="img-fluid"  src="<?= base_url("img/fo1.png") ?>">
+                                    <img class="img-fluid" src="<?= base_url("img/fo1.png") ?>">
                                     <div class="card-body">
                                         <h4 class="card-title">Kitchen Waste</h4>
                                         <p class="card-text">Waste from your cooking endeavors</p>
@@ -336,27 +332,26 @@
 </footer>
 
 <script>
-    window.sr=ScrollReveal();
-    sr.reveal('.navbar',{
+    window.sr = ScrollReveal();
+    sr.reveal('.navbar', {
         duration: 2000,
         origin: 'bottom'
     });
-    window.sr=ScrollReveal();
-    sr.reveal('.working',{
+    window.sr = ScrollReveal();
+    sr.reveal('.working', {
         duration: 2000,
         origin: 'bottom',
         viewFactor: 0.5
     });
-    sr.reveal('.works',{
+    sr.reveal('.works', {
         duration: 2000,
         origin: 'left',
         viewFactor: 0.5
     });
-    sr.reveal('.disyplay-4',{
+    sr.reveal('.disyplay-4', {
         duration: 2000,
         origin: 'left',
         viewFactor: 0.5
     });
-
 </script>
 <?= $this->endSection() ?>

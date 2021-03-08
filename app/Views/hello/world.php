@@ -113,7 +113,7 @@
     <hr class="my-5">
 </div>
 
-
+<!--- tiga Bootstrap --->
 <div class="container-fluid padding">
     <div class="row text-center padding">
         <div class="col-xs-12 col-sm-6 col-md-4">

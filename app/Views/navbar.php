@@ -19,35 +19,33 @@ $session = session();
                         <a class="nav-link" href="<?= site_url() ?>">Home</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">About </a>
+                        <a class="nav-link" href="<?= site_url('home/about') ?>">About </a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="<?= site_url('#') ?>" id="navbardrop" data-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="home/service">Coming soon!</a>
+                        </div>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Services</a>
+                        <a class="nav-link" href="<?= site_url('home/team') ?>">Team</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Team</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Connect</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Bucket <span class="sr-only">(current)</span></a>
-                    </li>
+
                 <?php else : ?>
                     <li class="nav-item active">
                         <a class="nav-link" href="<?= site_url() ?>">Home </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">About </a>
+                        <a class="nav-link" href="<?= site_url('home/about') ?>">About </a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="<?= site_url('#') ?>" id="navbardrop" data-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="home/service">Coming soon!</a>
+                        </div>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Services</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Team</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Connect <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="<?= site_url('home/team') ?>">Team <span class="sr-only">(current)</span></a>
                     </li>
                 <?php endif ?>
             </ul>

@@ -24,7 +24,7 @@ $errors = $session->getFlashdata('errors');
             <div class="card card-signin my-5 ">
                 <div class="text-center">
                     <br>
-                    <img src="<?= base_url("img/logo_collect.png") ?>" alt="" class="img-fluid center" width="72" height="57">
+                    <img src="<?= base_url("img/logo_collect.png") ?>" alt="" class="img-fluid center" width="200">
                 </div>
                 <div class="card-body mx-4" style="max-width: 25rem;">
                     <h3 class="card-title text-center">Login</h3>

@@ -155,21 +155,21 @@
             <img src="<?= base_url("img/part1.PNG") ?>" class="img-fluid">
             <h3>Biogas</h3>
             <p>
-            Anaerobic processing of food waste into biogas can be a solution for safe management of food waste and produce electrical energy based on environmentally friendly technology.​
+                Anaerobic processing of food waste into biogas can be a solution for safe management of food waste and produce electrical energy based on environmentally friendly technology.​
             </p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
             <img src="<?= base_url("img/part2.PNG") ?>" class="img-fluid">
             <h3>Compost</h3>
             <p>
-            Organic substances in food waste can be recycled into compost which has high economic value. The resulting compost can increase soil nutrients, stabilize soil aggregates, and improve soil drainage and aeration. ​
+                Organic substances in food waste can be recycled into compost which has high economic value. The resulting compost can increase soil nutrients, stabilize soil aggregates, and improve soil drainage and aeration. ​
             </p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
             <img src="<?= base_url("img/part3.PNG") ?>" class="img-fluid">
             <h3>Biomaterial</h3>
             <p>
-            Food waste, especially vegetables can be used as a medium for microbial growth that produces microbial cellulose. This microbial cellulose is used as a biomaterial that imitates leather.​
+                Food waste, especially vegetables can be used as a medium for microbial growth that produces microbial cellulose. This microbial cellulose is used as a biomaterial that imitates leather.​
             </p>
         </div>
     </div>
@@ -194,10 +194,10 @@
                 <img src="<?= base_url('img/bene1.png') ?>" alt="" class="card-imd-top">
                 <div class="card-body">
                     <h3 class="card-title">
-                    Earn Money
+                        Earn Money
                     </h3>
                     <p class="card-text">
-                    By selling your food waste, you can earn money instead of losing them! What a win win!
+                        By selling your food waste, you can earn money instead of losing them! What a win win!
                     </p>
                 </div>
             </div>
@@ -207,10 +207,10 @@
                 <img src="<?= base_url('img/bene2.png') ?>" alt="" class="card-imd-top">
                 <div class="card-body">
                     <h3 class="card-title">
-                    Gain Points
+                        Gain Points
                     </h3>
                     <p class="card-text">
-                    Not only would you earn money for each order, but you'd also gain points that you can redeem with voucher!
+                        Not only would you earn money for each order, but you'd also gain points that you can redeem with voucher!
                     </p>
                 </div>
             </div>
@@ -221,7 +221,7 @@
                 <div class="card-body">
                     <h4 class="card-title">Save the Earth</h4>
                     <p class="card-text">
-                    Every food waste you sold to us would diminish greenhouse gas emission prodused by decomposition
+                        Every food waste you sold to us would diminish greenhouse gas emission prodused by decomposition
                     </p>
                 </div>
             </div>

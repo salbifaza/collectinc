@@ -22,4 +22,16 @@ class Home extends BaseController
 	{
 		return view('hello/coming soon');
 	}
+	public function profile()
+	{
+		return view('hello/profile');
+	}
+	public function order()
+	{
+		return view('hello/order');
+	}
+	public function history()
+	{
+		return view('hello/history');
+	}
 }

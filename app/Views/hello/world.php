@@ -22,6 +22,15 @@
 
 <!--- Container --->
 <div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="disyplay-4">How Collect.inc Works</h1>
+        </div>
+    </div>
+</div>
+<br>
+
+<div class="container-fluid padding">
     <div id="slides" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -59,6 +68,15 @@
     </div>
 </div>
 <hr>
+<br>
+
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="disyplay-4">What Can I Sell?</h1>
+        </div>
+    </div>
+</div>
 <br>
 
 <div class="container text-center">
@@ -123,21 +141,36 @@
 
 <!--- tiga Bootstrap --->
 <div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="disyplay-4">Where Will I Sell To?</h1>
+        </div>
+    </div>
+</div>
+<br>
+
+<div class="container-fluid padding">
     <div class="row text-center padding">
         <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fas fa-bold"></i>
-            <h3>BOOTSTRAP</h3>
-            <p>Built with the latest version of Bootstrap</p>
+            <img src="<?= base_url("img/part1.PNG") ?>" class="img-fluid">
+            <h3>Biogas</h3>
+            <p>
+            Anaerobic processing of food waste into biogas can be a solution for safe management of food waste and produce electrical energy based on environmentally friendly technology.​
+            </p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fas fa-bold"></i>
-            <h3>BOOTSTRAP</h3>
-            <p>Built with the latest version of Bootstrap</p>
+            <img src="<?= base_url("img/part2.PNG") ?>" class="img-fluid">
+            <h3>Compost</h3>
+            <p>
+            Organic substances in food waste can be recycled into compost which has high economic value. The resulting compost can increase soil nutrients, stabilize soil aggregates, and improve soil drainage and aeration. ​
+            </p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fas fa-bold"></i>
-            <h3>BOOTSTRAP</h3>
-            <p>Built with the latest version of Bootstrap</p>
+            <img src="<?= base_url("img/part3.PNG") ?>" class="img-fluid">
+            <h3>Biomaterial</h3>
+            <p>
+            Food waste, especially vegetables can be used as a medium for microbial growth that produces microbial cellulose. This microbial cellulose is used as a biomaterial that imitates leather.​
+            </p>
         </div>
     </div>
     <hr class="my-4">
@@ -147,7 +180,7 @@
 <div class="container-fluid padding">
     <div class="row welcome text-center">
         <div class="col-12">
-            <h1 class="disyplay-4">BENEFITS</h1>
+            <h1 class="disyplay-4">Benefits</h1>
         </div>
     </div>
 </div>
@@ -160,9 +193,11 @@
             <div class="card">
                 <img src="<?= base_url('img/bene1.png') ?>" alt="" class="card-imd-top">
                 <div class="card-body">
-                    <h4 class="card-title"></h4>
+                    <h3 class="card-title">
+                    Earn Money
+                    </h3>
                     <p class="card-text">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro rem sapiente dolorum veniam voluptates dicta similique sed numquam incidunt? Eum dignissimos beatae numquam magni architecto ducimus quae rerum eligendi! Ut!
+                    By selling your food waste, you can earn money instead of losing them! What a win win!
                     </p>
                 </div>
             </div>
@@ -171,9 +206,11 @@
             <div class="card">
                 <img src="<?= base_url('img/bene2.png') ?>" alt="" class="card-imd-top">
                 <div class="card-body">
-                    <h4 class="card-title"></h4>
+                    <h3 class="card-title">
+                    Gain Points
+                    </h3>
                     <p class="card-text">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro rem sapiente dolorum veniam voluptates dicta similique sed numquam incidunt? Eum dignissimos beatae numquam magni architecto ducimus quae rerum eligendi! Ut!
+                    Not only would you earn money for each order, but you'd also gain points that you can redeem with voucher!
                     </p>
                 </div>
             </div>
@@ -182,9 +219,9 @@
             <div class="card">
                 <img src="<?= base_url('img/bene3.png') ?>" alt="" class="card-imd-top">
                 <div class="card-body">
-                    <h4 class="card-title"></h4>
+                    <h4 class="card-title">Save the Earth</h4>
                     <p class="card-text">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro rem sapiente dolorum veniam voluptates dicta similique sed numquam incidunt? Eum dignissimos beatae numquam magni architecto ducimus quae rerum eligendi! Ut!
+                    Every food waste you sold to us would diminish greenhouse gas emission prodused by decomposition
                     </p>
                 </div>
             </div>
@@ -199,12 +236,12 @@
 <div class="container-fluid padding">
     <div class="row padding">
         <div class="col-lg-6">
-            <h2>If you built it...</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repudiandae deserunt dolores odio cumque ut debitis earum ratione veniam eius fugit vitae laborum, reprehenderit corporis reiciendis repellendus dolorem enim. Incidunt?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non corrupti rem temporibus, maxime perspiciatis soluta, magnam est maiores quidem aspernatur pariatur laborum! Iusto dignissimos doloribus nisi voluptate, architecto obcaecati.</p>
+            <h1>Small action</h1>
+            <h1>that the Earth</h1>
+            <h1>would thank you for</h1>
         </div>
         <div class="col-lg-6">
-            <img src="<?= base_url("img/background.png") ?>" class="img-fluid">
+            <img src="<?= base_url("img/end.PNG") ?>" class="img-fluid">
         </div>
     </div>
 </div>

@@ -6,12 +6,11 @@
 <div class="container-fluid padding">
     <div class="row padding">
         <div class="col-lg-6">
-            <h2>If you built it...</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repudiandae deserunt dolores odio cumque ut debitis earum ratione veniam eius fugit vitae laborum, reprehenderit corporis reiciendis repellendus dolorem enim. Incidunt?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non corrupti rem temporibus, maxime perspiciatis soluta, magnam est maiores quidem aspernatur pariatur laborum! Iusto dignissimos doloribus nisi voluptate, architecto obcaecati.</p>
+            <h1>Collect your food waste</h1>
+            <h1>Combat climate change</h1>
         </div>
         <div class="col-lg-6">
-            <img src="<?= base_url("img/background.png") ?>" class="img-fluid">
+            <img src="<?= base_url("img/1.PNG") ?>" class="img-fluid">
         </div>
     </div>
 </div>
@@ -31,13 +30,22 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="<?= base_url("img/background.png") ?>" alt="First slide" class="img-fluid">
+                <img class="d-block w-100" src="<?= base_url("img/step1.jpg") ?>" alt="First slide" class="img-fluid">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="<?= base_url("img/background2.png") ?>" alt="Second slide">
+                <img class="d-block w-100" src="<?= base_url("img/step2.jpg") ?>" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="<?= base_url("img/background3.png") ?>" alt="Third slide">
+                <img class="d-block w-100" src="<?= base_url("img/step3.jpg") ?>" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="<?= base_url("img/step4.jpg") ?>" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="<?= base_url("img/step5.jpg") ?>" alt="Fifth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="<?= base_url("img/step6.jpg") ?>" alt="Sixth slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
@@ -150,7 +158,7 @@
     <div class="row padding">
         <div class="col-md-4">
             <div class="card">
-                <img src="<?= base_url('img/background.png') ?>" alt="" class="card-imd-top">
+                <img src="<?= base_url('img/bene1.png') ?>" alt="" class="card-imd-top">
                 <div class="card-body">
                     <h4 class="card-title"></h4>
                     <p class="card-text">
@@ -161,7 +169,7 @@
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="<?= base_url('img/background.png') ?>" alt="" class="card-imd-top">
+                <img src="<?= base_url('img/bene2.png') ?>" alt="" class="card-imd-top">
                 <div class="card-body">
                     <h4 class="card-title"></h4>
                     <p class="card-text">
@@ -172,7 +180,7 @@
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="<?= base_url('img/background.png') ?>" alt="" class="card-imd-top">
+                <img src="<?= base_url('img/bene3.png') ?>" alt="" class="card-imd-top">
                 <div class="card-body">
                     <h4 class="card-title"></h4>
                     <p class="card-text">

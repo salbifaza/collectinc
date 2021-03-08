@@ -6,6 +6,10 @@
   margin: 0 -16px;
 }
 
+.row h1{
+  font-size: x-large;
+}
+
 .col-25 {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
@@ -85,8 +89,7 @@ span.price {
 }
 
 .judul {
-  font-size: 100px;
-  margin-bottom: 20px;
+  background:pink;
 }
 
 .innerimage{

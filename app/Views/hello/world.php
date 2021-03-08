@@ -272,6 +272,8 @@
             <h1>Small action</h1>
             <h1>that the Earth</h1>
             <h1>would thank you for</h1>
+            <br>
+            <button type="button" class="btn btn-dark">Learn more</button>
         </div>
         <div class="col-lg-6">
             <img src="<?= base_url("img/end.PNG") ?>" class="img-fluid">

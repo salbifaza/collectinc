@@ -28,7 +28,7 @@
                 <p class="mb-0">"A small progress is still a progress"</p>
             </div>
             <!--- Edit disini --->
-            <div class="col-lg-4 col-md-6 p-4 animate__animated animate__zoomIn animate__delay-1s"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="<?= base_url("img/background.png") ?>" alt="Card image cap" width="200">
+            <div class="col-lg-4 col-md-6 p-4 animate__animated animate__zoomIn animate__delay-1s"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="<?= base_url("img/putri.jpeg") ?>" alt="Card image cap" width="200">
                 <h4> <b>Putri Risa F.</b> </h4>
                 <p class="mb-0">Co-founder</p>
             </div>

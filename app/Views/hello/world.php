@@ -86,42 +86,24 @@
                 <div class="carousel-item active">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=1">
+                            <img class="img-fluid" src="<?= base_url("img/fo2.png") ?>">
+                            <h3>Unfresh Groceries</h3>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=2">
+                            <img class="img-fluid" src="<?= base_url("img/fo1.png") ?>">
+                            <h3>Kitchen Waste</h3>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=3">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=4">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=5">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=6">
+                            <img class="img-fluid" src="<?= base_url("img/fo3.png") ?>">
+                            <h3>Leftover Food</h3>
                         </div>
                     </div>
                 </div>

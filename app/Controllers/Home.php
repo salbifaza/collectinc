@@ -34,4 +34,8 @@ class Home extends BaseController
 	{
 		return view('hello/history');
 	}
+	public function learn_more()
+	{
+		return view('hello/learn_more');
+	}
 }

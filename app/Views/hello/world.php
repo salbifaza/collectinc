@@ -1,23 +1,30 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
 
-
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
 
 <br>
 <br>
 <br>
 
-<div class="container-fluid padding">
-    <div class="row padding">
-        <div class="col-lg-6">
-            <h1>Collect your food waste</h1>
-            <h1>Combat climate change</h1>
-        </div>
-        <div class="col-lg-6">
-            <img src="<?= base_url("img/1.PNG") ?>" class="img-fluid">
+<section id="judul">
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h1 class="animate__animated animate__fadeInDown animate__slow">Collect your food waste</h1>
+                <h1 class="animate__animated animate__fadeInDown animate__slow">Combat climate change</h1>
+            </div>
+            <div class="col-lg-6">
+                <img src="<?= base_url("img/1.PNG") ?>" class="img-fluid animate__animated animate__zoomIn">
+            </div>
         </div>
     </div>
-</div>
+</section>
+
 
 <br>
 <hr>
@@ -25,52 +32,61 @@
 <br>
 
 <!--- Container --->
-<div class="container-fluid padding">
-    <div class="row welcome text-center">
-        <div class="col-12">
-            <h1 class="disyplay-4">How Collect.inc Works</h1>
+<section>
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <div class="working">
+                    <h1>How Collect.inc Works</h1>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<br>
+    <br>
+</section>
+
 
 <div class="container-fluid padding">
-    <div id="slides" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#slides" data-slide-to="0" class="active"></li>
-            <li data-target="#slides" data-slide-to="1"></li>
-            <li data-target="#slides" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="<?= base_url("img/step1.jpg") ?>" alt="First slide" class="img-fluid">
+    <div class="works">
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="<?= base_url("img/step1.jpg") ?>" alt="First slide" class="img-fluid">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="<?= base_url("img/step2.jpg") ?>" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="<?= base_url("img/step3.jpg") ?>" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="<?= base_url("img/step4.jpg") ?>" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="<?= base_url("img/step5.jpg") ?>" alt="Fifth slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="<?= base_url("img/step6.jpg") ?>" alt="Sixth slide">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="<?= base_url("img/step2.jpg") ?>" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="<?= base_url("img/step3.jpg") ?>" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="<?= base_url("img/step4.jpg") ?>" alt="Fourth slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="<?= base_url("img/step5.jpg") ?>" alt="Fifth slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="<?= base_url("img/step6.jpg") ?>" alt="Sixth slide">
-            </div>
+            <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 </div>
+
+
 <hr>
 <br>
 <br>
@@ -105,14 +121,14 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row">
+                        <div class="row" style="text-align:center">
 
                             <div class="col-md-4 mb-3">
                                 <div class="card">
                                     <img class="img-fluid" src="<?= base_url("img/fo2.png") ?>">
                                     <div class="card-body">
-                                        <h4 class="card-title">Special title treatment</h4>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <h4 class="card-title">Unfresh Groceries</h4>
+                                        <p class="card-text">Fruits and vegetables that you haven't eaten because it's either unfresh or rotten</p>
                                     </div>
 
                                 </div>
@@ -121,8 +137,8 @@
                                 <div class="card">
                                     <img class="img-fluid" src="<?= base_url("img/fo1.png") ?>">
                                     <div class="card-body">
-                                        <h4 class="card-title">Special title treatment</h4>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <h4 class="card-title">Kitchen Waste</h4>
+                                        <p class="card-text">Waste from your cooking endeavors</p>
 
                                     </div>
                                 </div>
@@ -131,8 +147,8 @@
                                 <div class="card">
                                     <img class="img-fluid" src="<?= base_url("img/fo3.png") ?>">
                                     <div class="card-body">
-                                        <h4 class="card-title">Special title treatment</h4>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <h4 class="card-title">Leftover Food</h4>
+                                        <p class="card-text">Food that you didn't get to finish</p>
 
                                     </div>
                                 </div>
@@ -163,7 +179,9 @@
 <div class="container-fluid padding">
     <div class="row text-center padding">
         <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="<?= base_url("img/part1.PNG") ?>" class="img-fluid">
+            <div class=innerimage>
+                <img src="<?= base_url("img/part1.PNG") ?>" class="img-fluid">
+            </div>
             <h3>Biogas</h3>
             <p>
                 Anaerobic processing of food waste into biogas can be a solution for safe management of food waste and produce electrical energy based on environmentally friendly technology.​
@@ -310,4 +328,28 @@
         </div>
     </div>
 </footer>
+
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.navbar', {
+        duration: 2000,
+        origin: 'bottom'
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('.working', {
+        duration: 2000,
+        origin: 'bottom',
+        viewFactor: 0.5
+    });
+    sr.reveal('.works', {
+        duration: 2000,
+        origin: 'left',
+        viewFactor: 0.5
+    });
+    sr.reveal('.disyplay-4', {
+        duration: 2000,
+        origin: 'left',
+        viewFactor: 0.5
+    });
+</script>
 <?= $this->endSection() ?>

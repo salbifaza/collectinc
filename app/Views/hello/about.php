@@ -1,17 +1,6 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
 
-<section class="home" id="home">
-    <div class="home__container bd-grid">
-        <h1 class="home__title" data-sr-id="0" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); 
-        transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;">
-            <span>Solusi Untuk Mengatasi</span>
-            <br>
-            "Limbah Medis."
-        </h1>
-    </div>
-</section>
-
 <div class="container">
     <div class="row">
         <div class="col-6">

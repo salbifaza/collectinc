@@ -19,7 +19,7 @@
                 <h1 class="animate__animated animate__fadeInDown animate__slow">Collect your food waste</h1>
                 <h1 class="animate__animated animate__fadeInDown animate__slow">Combat climate change</h1>
                 <br>
-                <button type="button" class="btn btn-dark animate__animated animate__fadeIn animate__slow">Learn more</button>
+                <a href="learn_more.php" class="btn btn-dark animate__animated animate__fadeIn animate__slow">Learn more</a>
             </div>
             <div class="col-lg-6">
                 <img src="<?= base_url("img/1.PNG") ?>" class="img-fluid animate__animated animate__zoomIn">
@@ -259,7 +259,7 @@
             <h1>Small action that the Earth</h1>
             <h1>would thank you for</h1>
             <br>
-            <button type="button" class="btn btn-dark btn-lg btn-block">I'm in!</button>
+            <a href="<?= site_url('auth/register') ?>" class="btn btn-dark btn-lg btn-block animate__animated animate__fadeIn animate__slow">I'm in!</a>
         </div>
         <div class="col-lg-6">
             <img src="<?= base_url("img/end.PNG") ?>" class="img-fluid">
@@ -291,9 +291,9 @@
     <div class="container-fluid padding">
         <div class="row text-center">
             <div class="col-md-4">
-                <p></p>
-                <p></p>
-                <p></p>
+            <img src="<?= base_url("img/logo_collect.PNG") ?>" class="img-fluid">
+                <p>Collect your food waste</p>
+                <p>Combat climate change</p>
             </div>
             <div class="col-md-4">
                 <h5>Information</h5>
@@ -350,7 +350,7 @@
         duration: 2000,
         origin: 'top',
         viewFactor: 0.5,
-        interval: 1500
+        interval: 1000
     });
 </script>
 <?= $this->endSection() ?>

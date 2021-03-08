@@ -9,49 +9,50 @@
 
 <br>
 <br>
-<br>
-<div class="row">
+<div class="row text-center">
     <div class="mx-auto col-md-12">
         <!--- Edit disini --->
         <h1 class="mb-3 animate__animated animate__fadeInDown animate__slow" contenteditable="true">What's to come from Collect.inc</h1>
-        <p>We're always developing Collect.inc to be better and to accomodate greater cause for climate change. These are
+        <p class="animate__animated animate__fadeIn animate__slow">We're always developing Collect.inc to be better and to accomodate greater cause for climate change. These are
             a few things that's underway, which excites you the most?
         </p>
     </div>
 </div>
+<br>
 
-<div class="container-fluid padding">
-    <div class="row text-center padding">
-        <div class="col-6">
-            <img src="<?= base_url("img/part1.PNG") ?>" class="img-fluid">
-            <h3>01. More Driver</h3>
-            <p>
+<div class="row">
+  <div class="col text-center">
+    <img src="<?= base_url("img/coms1.PNG") ?>" class="img-fluid animate__animated animate__zoomIn animate__delay-1s">
+            <h2 class="img-fluid animate__animated animate__slideInDown animate__delay-1s">01.</h2>
+            <h4 class="img-fluid animate__animated animate__slideInDown animate__delay-1s">More Drivers</h4>
+            <p class="text-justify animate__animated animate__fadeIn animate__delay-1s"> 
                 With greater location range as we go, we'll try to add more drivers to our team so that you can make your order at Collect.inc more easily!
             </p>
-        </div>
-        <div class="col-6">
-            <img src="<?= base_url("img/part2.PNG") ?>" class="img-fluid">
-            <h3>02. More Partner</h3>
-            <p>
-                To add to our three brilliant partners (biogas, compost, and biomaterial), we'll try to reach more partners who'd be able to turn your food waste into something as valuable!
+  </div>
+  <div class="col text-center">
+     <img src="<?= base_url("img/coms2.PNG") ?>" class="img-fluid animate__animated animate__zoomIn animate__delay-2s">
+            <h2 class="img-fluid animate__animated animate__slideInDown animate__delay-2s">02.</h2>
+            <h4 class="img-fluid animate__animated animate__slideInDown animate__delay-2s">More Partners</h4>
+            <p class="text-justify animate__animated animate__fadeIn animate__delay-2s"> 
+                To add to our three partners (biogas, compost, and biomaterial), we'll try to reach more partners who'd be able to turn your food waste into something as valuable!
             </p>
-        </div>
-        <div class=" col-6">
-            <img src="<?= base_url("img/part3.PNG") ?>" class="img-fluid">
-            <h3>03. 1 Transaction 1 Tree</h3>
-            <p>
+  </div>
+  <div class="col text-center">
+            <img src="<?= base_url("img/coms3.PNG") ?>" class="img-fluid animate__animated animate__zoomIn animate__delay-3s">
+            <h2 class="img-fluid animate__animated animate__slideInDown animate__delay-3s">03.</h2>
+            <h4 class="img-fluid animate__animated animate__slideInDown animate__delay-3s">1 Transaction 1 Tree</h4>
+            <p class="text-justify animate__animated animate__fadeIn animate__delay-3s"> 
                 By teaming up with local NGOs and governmental organizations, we'll try to make a "1 Transaction 1 Tree" campaign to help reduce the cause of climate change.
             </p>
-        </div>
-        <div class="col-6">
-            <img src="<?= base_url("img/part3.PNG") ?>" class="img-fluid">
-            <h3>04. More Payment Methods</h3>
-            <p>
+  </div>
+  <div class="col text-center">
+            <img src="<?= base_url("img/coms4.PNG") ?>" class="img-fluid animate__animated animate__zoomIn animate__delay-4s">
+            <h2 class="img-fluid animate__animated animate__slideInDown animate__delay-4s">04.</h2>
+            <h4 class="img-fluid animate__animated animate__slideInDown animate__delay-4s">New Payment Methods</h4>
+            <p class="text-justify animate__animated animate__fadeIn animate__delay-4s"> 
                 For your convinience, we'll try to partner with more e-money companies so your payment is easy-peasy!
             </p>
-        </div>
-    </div>
-    <hr class="my-4">
+  </div>
 </div>
 
 <br>
@@ -73,31 +74,28 @@
 <br>
 
 <!--- Footer --->
+<hr class="light">
 <footer>
     <div class="container-fluid padding">
         <div class="row text-center">
             <div class="col-md-4">
-                <img src="<?= base_url("img/logo.png") ?> " alt="">
-                <hr class="light">
-                <p>No. Telp</p>
-                <p>e-mail</p>
-                <p>Alamat</p>
+            <img src="<?= base_url("img/logo_collect.PNG") ?>" class="img-fluid">
+                <p>Collect your food waste</p>
+                <p>Combat climate change</p>
             </div>
             <div class="col-md-4">
+                <h5>Information</h5>
                 <hr class="light">
-                <h5>Our Hour</h5>
-                <hr class="light">
-                <p>Monday: 9am - 5pm</p>
-                <p>Saturday: 10am - 5pm</p>
-                <p>Sunday: closed</p>
+                <p>About Us</p>
+                <p>Coming Soon</p>
+                <p>Become Our Partner</p>
             </div>
             <div class="col-md-4">
+                <h5>Contact Us</h5>
                 <hr class="light">
-                <h5>Our Hour</h5>
-                <hr class="light">
-                <p>Alamat</p>
-                <p>Alamat</p>
-                <p>Alamat</p>
+                <p>No. Telp: 087739286151</p>
+                <p>e-mail: inquiries@collect.inc</p>
+                <p>Alamat: Jl. Ganesa No. 10, Bandung</p>
             </div>
             <div class="col-12">
                 <hr class="light">
@@ -107,5 +105,14 @@
         </div>
     </div>
 </footer>
+
+<script>
+    sr.reveal('.innerimage', {
+        duration: 2000,
+        origin: 'top',
+        viewFactor: 0.5,
+        interval: 1000
+    });
+</script>
 
 <?= $this->endSection() ?>

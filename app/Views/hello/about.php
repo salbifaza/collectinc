@@ -31,4 +31,53 @@
     </div>
 </section>
 
+<!--- Connect --->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+<br>
+
+<!--- Footer --->
+<hr class="light">
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+            <img src="<?= base_url("img/logo_collect.PNG") ?>" class="img-fluid">
+                <p>Collect your food waste</p>
+                <p>Combat climate change</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Information</h5>
+                <hr class="light">
+                <p>About Us</p>
+                <p>Coming Soon</p>
+                <p>Become Our Partner</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <hr class="light">
+                <p>No. Telp: 087739286151</p>
+                <p>e-mail: inquiries@collect.inc</p>
+                <p>Alamat: Jl. Ganesa No. 10, Bandung</p>
+            </div>
+            <div class="col-12">
+                <hr class="light">
+                <h5>&copy;Collect.inc 2021</h5>
+                </hr>
+            </div>
+        </div>
+    </div>
+</footer>
+
 <?= $this->endSection() ?>

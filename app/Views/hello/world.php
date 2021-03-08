@@ -256,11 +256,10 @@
     <div class="row padding">
         <div class="col-lg-6">
         <br><br><br><br><br><br><br><br>
-            <h1>Small action</h1>
-            <h1>that the Earth</h1>
+            <h1>Small action that the Earth</h1>
             <h1>would thank you for</h1>
             <br>
-            <button type="button" class="btn btn-dark">I'm in!</button>
+            <button type="button" class="btn btn-dark btn-lg btn-block">I'm in!</button>
         </div>
         <div class="col-lg-6">
             <img src="<?= base_url("img/end.PNG") ?>" class="img-fluid">
@@ -287,31 +286,28 @@
 <br>
 
 <!--- Footer --->
+<hr class="light">
 <footer>
     <div class="container-fluid padding">
         <div class="row text-center">
             <div class="col-md-4">
-                <img src="<?= base_url("img/logo.png") ?> " alt="">
-                <hr class="light">
-                <p>No. Telp</p>
-                <p>e-mail</p>
-                <p>Alamat</p>
+                <p></p>
+                <p></p>
+                <p></p>
             </div>
             <div class="col-md-4">
+                <h5>Information</h5>
                 <hr class="light">
-                <h5>Our Hour</h5>
-                <hr class="light">
-                <p>Monday: 9am - 5pm</p>
-                <p>Saturday: 10am - 5pm</p>
-                <p>Sunday: closed</p>
+                <p>About Us</p>
+                <p>Coming Soon</p>
+                <p>Become Our Partner</p>
             </div>
             <div class="col-md-4">
+                <h5>Contact Us</h5>
                 <hr class="light">
-                <h5>Our Hour</h5>
-                <hr class="light">
-                <p>Alamat</p>
-                <p>Alamat</p>
-                <p>Alamat</p>
+                <p>No. Telp: 087739286151</p>
+                <p>e-mail: inquiries@collect.inc</p>
+                <p>Alamat: Jl. Ganesa No. 10, Bandung</p>
             </div>
             <div class="col-12">
                 <hr class="light">

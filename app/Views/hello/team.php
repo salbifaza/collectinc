@@ -7,29 +7,27 @@
         <div class="row">
             <div class="mx-auto col-md-12">
                 <!--- Edit disini --->
-                <h1 class="mb-3" contenteditable="true">Meet our team</h1>
+                <h1 class="mb-3" contenteditable="true">The Pioneers</h1>
+                <p>A little team with big dreams behind Collect.inc</p>
+                <br>
             </div>
         </div>
         <div class="row">
             <!--- Edit disini --->
-            <div class="col-lg-4 col-md-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" alt="Card image cap" width="200" src="<?= base_url("img/background.png") ?>">
-                <h4> <b>John kandy</b> </h4>
-                <p class="mb-0">CEO and founder</p>
+            <div class="col-lg-4 col-md-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" alt="Card image cap" width="200" src="<?= base_url("img/bella.jpg") ?>">
+                <h4> <b>Aulia Salsabella S.</b> </h4>
+                <h6>---- Oseanografi ----</h6>
+                <p>"A small progress is still a progress"</p>
             </div>
             <!--- Edit disini --->
-<<<<<<< HEAD
-            <div class="col-lg-4 col-md-6 p-4 animate__animated animate__zoomIn animate__delay-1s"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="<?= base_url("img/putri.jpeg") ?>" alt="Card image cap" width="200">
+            <div class="col-lg-4 col-md-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="<?= base_url("img/putri.jpeg") ?>" alt="Card image cap" width="200">
                 <h4> <b>Putri Risa F.</b> </h4>
-=======
-            <div class="col-lg-4 col-md-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="<?= base_url("img/background.png") ?>" alt="Card image cap" width="200">
-                <h4> <b>Sam ilana</b> </h4>
->>>>>>> ca5345582a375faddec86bfa000a32f20d503547
-                <p class="mb-0">Co-founder</p>
+                <h5 class="mb-0">Biologi</h5>
             </div>
             <!--- Edit disini --->
             <div class="col-lg-4 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="<?= base_url("img/background.png") ?>" width="200">
-                <h4> <b>Maria Samantha</b> </h4>
-                <p class="mb-0">HR Manager</p>
+                <h4> <b>Salbi Faza R.</b> </h4>
+                <h5 class="mb-0">Oseanografi</h5>
             </div>
         </div>
     </div>

@@ -22,10 +22,12 @@
                 <br><br><br><br><br><br>
                 <h1 class="animate__animated animate__fadeInDown animate__slow">About Collect.inc </h1>
                 <br>
-                <p class="animate__animated animate__fadeIn animate__slow animate__delay-1s">Collect.inc merupakan aplikasi yang bergerak dalam jasa penyaluran limbah makanan. 
-                    Collect.inc menjembatani antara pemilik limbah makanan dengan jasa pengelola limbah. 
-                    Sampah dijual kepada jasa pengelola imbah dan pengguna aplikasi/user akan mendapatkan uang & poin dari aktivitas jual beli sampah makanan. 
-                    Collect.inc akan menyalurkan limbah makanan baik dari domestik yang berskala kecil hingga besar seperti restoran dan bisnis ritel kepada pihak-pihak yang dapat mengolah limbah menjadi berbagai produk ramah lingkungan</p>
+                <p class="animate__animated animate__fadeIn animate__slow animate__delay-1s">
+                Collect.inc is an application that is engaged in food waste distribution services that bridge food waste owners with waste management services. 
+                Food waste is sold to waste management services, so that application users will get money and points from buying and selling food waste. 
+                Collect.inc will distribute food waste from small to large scale domestic such as restaurants and retail businesses to parties who can process waste into various environmentally-friendly products. 
+
+                </p>
             </div>
         </div>
     </div>

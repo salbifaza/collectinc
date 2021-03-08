@@ -44,6 +44,18 @@ class Validation
 		'username' => [
 			'rules' => 'required|min_length[5]',
 		],
+		'first_name' => [
+			'rules' => 'required',
+		],
+		'last_name' => [
+			'rules' => 'required',
+		],
+		'e_mail' => [
+			'rules' => 'required',
+		],
+		'phone_number' => [
+			'rules' => 'required',
+		],
 		'password' => [
 			'rules' => 'required',
 		],
@@ -56,6 +68,18 @@ class Validation
 		'username' => [
 			'required' => 'Username Harus Diisi',
 			'min_length' => 'Username Minimal 5 karakter',
+		],
+		'first_name' => [
+			'required' => 'First name Harus Diisi',
+		],
+		'last_name' => [
+			'required' => 'Last name Harus Diisi',
+		],
+		'e_mail' => [
+			'required' => 'Email Harus Diisi',
+		],
+		'phone_number' => [
+			'required' => 'Phone Number Harus Diisi',
 		],
 		'password' => [
 			'required' => 'Password Harus Diisi',

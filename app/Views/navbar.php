@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <?php
 $session = session();
 ?>
@@ -15,7 +17,7 @@ $session = session();
             <ul class="navbar-nav mr-auto">
                 <?php if ($session->get('isLoggedIn')) : ?>
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url() ?>">Home</a>
+                        <a class="nav-link" href="<?= site_url() ?>"><i class="fa fa-fw fa-home"></i> Home</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="<?= site_url('home/about') ?>">About </a>
@@ -40,7 +42,7 @@ $session = session();
 
                 <?php else : ?>
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url() ?>">Home </a>
+                        <a class="nav-link" href="<?= site_url() ?>"><i class="fa fa-fw fa-home"></i> Home</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="<?= site_url('home/about') ?>">About </a>
@@ -60,11 +62,11 @@ $session = session();
                 <ul class="navbar-nav mr-auto">
                     <?php if ($session->get('isLoggedIn')) : ?>
                         <li class="nav-item">
-                            <a class="btn btn-light" href="<?= site_url('auth/logout') ?>">Logout</a>
+                            <a class="btn btn-light" href="<?= site_url('auth/logout') ?>"><i class="fa fa-fw fa-user"></i>Logout</a>
                         </li>
                     <?php else : ?>
                         <li class="nav-item">
-                            <a class="btn btn-light" href="<?= site_url('auth/login') ?>">Login</a>
+                            <a class="btn btn-light" href="<?= site_url('auth/login') ?>"><i class="fa fa-fw fa-user"></i>Login</a>
                         </li>
                         <li class="nav-item">
                             <a class="btn btn-light" href="<?= site_url('auth/register') ?>">Register</a>

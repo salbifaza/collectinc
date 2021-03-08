@@ -51,6 +51,9 @@ $errors = $session->getFlashdata('errors');
                         <?= form_label("Password", "password") ?>
                         <?= form_password($password) ?>
                     </div>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
                     <div class="text-right">
                         <?= form_submit('submit', 'Submit', ['class' => 'btn btn-primary']) ?>
                     </div>

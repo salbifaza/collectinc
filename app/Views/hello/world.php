@@ -15,8 +15,11 @@
     <div class="container-fluid padding">
         <div class="row padding">
             <div class="col-lg-6">
+                <br><br><br><br><br><br><br><br>
                 <h1 class="animate__animated animate__fadeInDown animate__slow">Collect your food waste</h1>
                 <h1 class="animate__animated animate__fadeInDown animate__slow">Combat climate change</h1>
+                <br>
+                <button type="button" class="btn btn-dark animate__animated animate__fadeIn animate__slow animate__delay-1s">Learn more</button>
             </div>
             <div class="col-lg-6">
                 <img src="<?= base_url("img/1.PNG") ?>" class="img-fluid animate__animated animate__zoomIn">
@@ -105,25 +108,12 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-6">
-
-        </div>
-        <div class="col-6 text-right">
-            <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                <i class="fa fa-arrow-left"></i>
-            </a>
-            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                <i class="fa fa-arrow-right"></i>
-            </a>
-        </div>
         <div class="col-12">
             <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row" style="text-align:center">
-
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 mb-3 sell1">
                                 <div class="card">
                                     <img class="img-fluid" src="<?= base_url("img/fo2.png") ?>">
                                     <div class="card-body">
@@ -133,7 +123,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 mb-3 sell2">
                                 <div class="card">
                                     <img class="img-fluid" src="<?= base_url("img/fo1.png") ?>">
                                     <div class="card-body">
@@ -143,7 +133,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 mb-3 sell3">
                                 <div class="card">
                                     <img class="img-fluid" src="<?= base_url("img/fo3.png") ?>">
                                     <div class="card-body">
@@ -265,11 +255,12 @@
 <div class="container-fluid padding">
     <div class="row padding">
         <div class="col-lg-6">
+        <br><br><br><br><br><br><br><br>
             <h1>Small action</h1>
             <h1>that the Earth</h1>
             <h1>would thank you for</h1>
             <br>
-            <button type="button" class="btn btn-dark">Learn more</button>
+            <button type="button" class="btn btn-dark">I'm in!</button>
         </div>
         <div class="col-lg-6">
             <img src="<?= base_url("img/end.PNG") ?>" class="img-fluid">

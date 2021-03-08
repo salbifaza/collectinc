@@ -22,32 +22,32 @@
 
 <div class="container-fluid padding">
     <div class="row text-center padding">
-        <div class="col-sm-6">
+        <div class="col-6">
             <img src="<?= base_url("img/part1.PNG") ?>" class="img-fluid">
             <h3>01. More Driver</h3>
             <p>
-                Anaerobic processing of food waste into biogas can be a solution for safe management of food waste and produce electrical energy based on environmentally friendly technology.​
+                With greater location range as we go, we'll try to add more drivers to our team so that you can make your order at Collect.inc more easily!
             </p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-6">
             <img src="<?= base_url("img/part2.PNG") ?>" class="img-fluid">
             <h3>02. More Partner</h3>
             <p>
-                Organic substances in food waste can be recycled into compost which has high economic value. The resulting compost can increase soil nutrients, stabilize soil aggregates, and improve soil drainage and aeration. ​
+                To add to our three brilliant partners (biogas, compost, and biomaterial), we'll try to reach more partners who'd be able to turn your food waste into something as valuable!
             </p>
         </div>
-        <div class=" col-sm-6">
+        <div class=" col-6">
             <img src="<?= base_url("img/part3.PNG") ?>" class="img-fluid">
-            <h3>Biomaterial</h3>
+            <h3>03. 1 Transaction 1 Tree</h3>
             <p>
-                Food waste, especially vegetables can be used as a medium for microbial growth that produces microbial cellulose. This microbial cellulose is used as a biomaterial that imitates leather.​
+                By teaming up with local NGOs and governmental organizations, we'll try to make a "1 Transaction 1 Tree" campaign to help reduce the cause of climate change.
             </p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-6">
             <img src="<?= base_url("img/part3.PNG") ?>" class="img-fluid">
-            <h3>Biomaterial</h3>
+            <h3>04. More Payment Methods</h3>
             <p>
-                Food waste, especially vegetables can be used as a medium for microbial growth that produces microbial cellulose. This microbial cellulose is used as a biomaterial that imitates leather.​
+                For your convinience, we'll try to partner with more e-money companies so your payment is easy-peasy!
             </p>
         </div>
     </div>

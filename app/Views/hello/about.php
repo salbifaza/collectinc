@@ -8,7 +8,9 @@
   />
   <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <br><br>
+
 <section id="judul">
     <div class="container-fluid padding">
          <div class="row padding">
@@ -20,7 +22,7 @@
                 <br><br><br><br><br><br>
                 <h1 class="animate__animated animate__fadeInDown animate__slow">About Collect.inc </h1>
                 <br>
-                <p>Collect.inc merupakan aplikasi yang bergerak dalam jasa penyaluran limbah makanan. 
+                <p class="animate__animated animate__fadeIn animate__slow animate__delay-1s">Collect.inc merupakan aplikasi yang bergerak dalam jasa penyaluran limbah makanan. 
                     Collect.inc menjembatani antara pemilik limbah makanan dengan jasa pengelola limbah. 
                     Sampah dijual kepada jasa pengelola imbah dan pengguna aplikasi/user akan mendapatkan uang & poin dari aktivitas jual beli sampah makanan. 
                     Collect.inc akan menyalurkan limbah makanan baik dari domestik yang berskala kecil hingga besar seperti restoran dan bisnis ritel kepada pihak-pihak yang dapat mengolah limbah menjadi berbagai produk ramah lingkungan</p>

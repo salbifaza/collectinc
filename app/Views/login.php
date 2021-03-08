@@ -54,10 +54,11 @@ $errors = $session->getFlashdata('errors');
                     <div class="text-right">
                         <?= form_submit('submit', 'Submit', ['class' => 'btn btn-primary']) ?>
                     </div>
+                    <?= form_close() ?>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<?= form_close() ?>
+
 <?= $this->endSection() ?>

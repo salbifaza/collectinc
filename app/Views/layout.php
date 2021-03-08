@@ -33,6 +33,7 @@
     </main><!-- /.container -->
     <script src="<?= base_url("bootstrap-4.0.0/dist/js/bootsrap.min.js") ?>"></script>
     <script src="<?= base_url("jquery-3.6.0.min.js") ?>"></script>
+
 </body>
 
 </html>

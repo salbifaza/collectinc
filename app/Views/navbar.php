@@ -4,8 +4,7 @@ $session = session();
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="<?= base_url("img/logo_collect.png") ?>" width="50" class="d-inline-block align-middle mr">
-            <span class="text-uppercase font-weight-bold">Collect.inc</span>
+            <img src="<?= base_url("img/logo_collect.png") ?>" height="40" class=" d-block mb-1 mx-auto align-middle mr">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -19,35 +18,33 @@ $session = session();
                         <a class="nav-link" href="<?= site_url() ?>">Home</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">About </a>
+                        <a class="nav-link" href="<?= site_url('home/about') ?>">About </a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="<?= site_url('#') ?>" id="navbardrop" data-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="home/service">Coming soon!</a>
+                        </div>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Services</a>
+                        <a class="nav-link" href="<?= site_url('home/team') ?>">Team</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Team</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Connect</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Bucket <span class="sr-only">(current)</span></a>
-                    </li>
+
                 <?php else : ?>
                     <li class="nav-item active">
                         <a class="nav-link" href="<?= site_url() ?>">Home </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">About </a>
+                        <a class="nav-link" href="<?= site_url('home/about') ?>">About </a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="<?= site_url('#') ?>" id="navbardrop" data-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="home/service">Coming soon!</a>
+                        </div>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Services</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Team</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="<?= site_url('home/index') ?>">Connect <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="<?= site_url('home/team') ?>">Team <span class="sr-only">(current)</span></a>
                     </li>
                 <?php endif ?>
             </ul>

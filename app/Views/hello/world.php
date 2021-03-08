@@ -1,6 +1,8 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
 
+
+
 <br>
 <br>
 <br>
@@ -88,7 +90,7 @@
 <div class="container">
     <div class="row">
         <div class="col-6">
-            
+
         </div>
         <div class="col-6 text-right">
             <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -117,7 +119,7 @@
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="card">
-                                    <img class="img-fluid"  src="<?= base_url("img/fo1.png") ?>">
+                                    <img class="img-fluid" src="<?= base_url("img/fo1.png") ?>">
                                     <div class="card-body">
                                         <h4 class="card-title">Special title treatment</h4>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>

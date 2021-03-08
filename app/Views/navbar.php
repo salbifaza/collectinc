@@ -76,5 +76,4 @@ $session = session();
             </div>
         </div>
     </div>
-
 </nav>

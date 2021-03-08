@@ -59,7 +59,7 @@ class Auth extends BaseController
 
             $user = $userModel->where('username', $username)->first();
 
-            if ($username) {
+            if ($user) {
                 $salt = $user->salt;
                 if ($user->password !== md5($salt . $password)) {
                     $this->session->setFlashData('errors', ['Password Salah']);

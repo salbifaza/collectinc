@@ -19,7 +19,7 @@
                 <h1 class="animate__animated animate__fadeInDown animate__slow">Collect your food waste</h1>
                 <h1 class="animate__animated animate__fadeInDown animate__slow">Combat climate change</h1>
                 <br>
-                <button type="button" class="btn btn-dark animate__animated animate__fadeIn animate__slow animate__delay-1s">Learn more</button>
+                <button type="button" class="btn btn-dark animate__animated animate__fadeIn animate__slow">Learn more</button>
             </div>
             <div class="col-lg-6">
                 <img src="<?= base_url("img/1.PNG") ?>" class="img-fluid animate__animated animate__zoomIn">
@@ -120,7 +120,6 @@
                                         <h4 class="card-title">Unfresh Groceries</h4>
                                         <p class="card-text">Fruits and vegetables that you haven't eaten because it's either unfresh or rotten</p>
                                     </div>
-
                                 </div>
                             </div>
                             <div class="col-md-4 mb-3 sell2">
@@ -129,7 +128,6 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Kitchen Waste</h4>
                                         <p class="card-text">Waste from your cooking endeavors</p>
-
                                     </div>
                                 </div>
                             </div>
@@ -139,11 +137,9 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Leftover Food</h4>
                                         <p class="card-text">Food that you didn't get to finish</p>
-
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -171,25 +167,29 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class=innerimage>
                 <img src="<?= base_url("img/part1.PNG") ?>" class="img-fluid">
+                <h3>Biogas</h3>
+                <p>
+                    Anaerobic processing of food waste into biogas can be a solution for safe management of food waste and produce electrical energy based on environmentally friendly technology.​
+                </p>
             </div>
-            <h3>Biogas</h3>
-            <p>
-                Anaerobic processing of food waste into biogas can be a solution for safe management of food waste and produce electrical energy based on environmentally friendly technology.​
-            </p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="<?= base_url("img/part2.PNG") ?>" class="img-fluid">
-            <h3>Compost</h3>
-            <p>
-                Organic substances in food waste can be recycled into compost which has high economic value. The resulting compost can increase soil nutrients, stabilize soil aggregates, and improve soil drainage and aeration. ​
-            </p>
+            <div class=innerimage>
+                <img src="<?= base_url("img/part2.PNG") ?>" class="img-fluid">
+                <h3>Compost</h3>
+                <p>
+                    Organic substances in food waste can be recycled into compost which has high economic value. The resulting compost can increase soil nutrients, stabilize soil aggregates, and improve soil drainage and aeration. ​
+                </p>
+            </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="<?= base_url("img/part3.PNG") ?>" class="img-fluid">
-            <h3>Biomaterial</h3>
-            <p>
-                Food waste, especially vegetables can be used as a medium for microbial growth that produces microbial cellulose. This microbial cellulose is used as a biomaterial that imitates leather.​
-            </p>
+            <div class=innerimage>
+                <img src="<?= base_url("img/part3.PNG") ?>" class="img-fluid">
+                <h3>Biomaterial</h3>
+                <p>
+                    Food waste, especially vegetables can be used as a medium for microbial growth that produces microbial cellulose. This microbial cellulose is used as a biomaterial that imitates leather.​
+                </p>
+            </div>
         </div>
     </div>
     <hr class="my-4">
@@ -343,6 +343,18 @@
         duration: 2000,
         origin: 'left',
         viewFactor: 0.5
+    });
+    sr.reveal('.card', {
+        duration: 2000,
+        origin: 'top',
+        viewFactor: 0.5,
+        interval: 1000
+    });
+    sr.reveal('.innerimage', {
+        duration: 2000,
+        origin: 'top',
+        viewFactor: 0.5,
+        interval: 1500
     });
 </script>
 <?= $this->endSection() ?>

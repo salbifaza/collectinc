@@ -66,6 +66,10 @@ class Auth extends BaseController
                 } else {
                     $sessData = [
                         'username' => $user->username,
+                        'first_name' => $user->first_name,
+                        'last_name' => $user->last_name,
+                        'phone_number' => $user->phone_number,
+                        'e_mail' => $user->e_mail,
                         'id' => $user->id,
                         'isLoggedIn' => TRUE
                     ];

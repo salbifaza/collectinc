@@ -9,7 +9,7 @@ class UserModel extends Model
     protected $table = 'user';
     protected $primaryKey = 'id';
     protected $allowedFields = [
-        'username', 'avater', 'password', 'salt', 'created_date', 'created_by', 'updated_date', 'updated_by'
+        'username', 'first_name', 'last_name', 'e_mail', 'phone_number', 'avatar', 'password', 'salt', 'created_date', 'created_by', 'updated_date', 'updated_by'
     ];
     protected $returnType = 'App\Entities\User';
     protected $useTimestamps = false;

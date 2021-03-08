@@ -25,6 +25,10 @@ class Auth extends BaseController
 
                 $user->username = $this->request->getPost('username');
                 $user->password = $this->request->getPost('password');
+                $user->first_name = $this->request->getPost('first_name');
+                $user->last_name = $this->request->getPost('last_name');
+                $user->e_mail = $this->request->getPost('e_mail');
+                $user->phone_number = $this->request->getPost('phone_number');
 
                 $user->created_by = 0;
                 $user->created_date = date("Y-m-d H:i:s");

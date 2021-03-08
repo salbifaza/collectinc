@@ -23,11 +23,19 @@ $session = session();
                     <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="<?= site_url('#') ?>" id="navbardrop" data-toggle="dropdown">Services</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="home/service">Coming soon!</a>
+                            <a class="dropdown-item" href="<?= site_url('home/service') ?>">Coming soon!</a>
                         </div>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="<?= site_url('home/team') ?>">Team</a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="<?= site_url('#') ?>" id="navbardrop" data-toggle="dropdown">Member Area</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="<?= site_url('home/profile') ?>">Profile</a>
+                            <a class="dropdown-item" href="<?= site_url('home/order') ?>">Order</a>
+                            <a class="dropdown-item" href="<?= site_url('home/history') ?>">History</a>
+                        </div>
                     </li>
 
                 <?php else : ?>
@@ -40,7 +48,7 @@ $session = session();
                     <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="<?= site_url('#') ?>" id="navbardrop" data-toggle="dropdown">Services</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="home/service">Coming soon!</a>
+                            <a class="dropdown-item" href="<?= site_url('home/service') ?>">Coming soon!</a>
                         </div>
                     </li>
                     <li class="nav-item active">

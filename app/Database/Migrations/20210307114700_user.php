@@ -21,6 +21,18 @@ class User extends \CodeIgniter\Database\Migration
             'password' => [
                 'type' => 'TEXT'
             ],
+            'first_name' => [
+                'type' => 'TEXT'
+            ],
+            'last_name' => [
+                'type' => 'TEXT'
+            ],
+            'e_mail' => [
+                'type' => 'TEXT'
+            ],
+            'phone_number' => [
+                'type' => 'TEXT'
+            ],
             'salt' => [
                 'type' => 'TEXT'
             ],

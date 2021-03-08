@@ -4,8 +4,7 @@ $session = session();
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="<?= base_url("img/logo_collect.png") ?>" width="50" class="d-inline-block align-middle mr">
-            <span class="text-uppercase font-weight-bold">Collect.inc</span>
+            <img src="<?= base_url("img/logo_collect.png") ?>" height="40" class=" d-block mb-1 mx-auto align-middle mr">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">

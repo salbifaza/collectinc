@@ -5,3 +5,8 @@
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
+
+#judul h1{
+  font-size: 100px;
+  margin-bottom: 20px;
+}

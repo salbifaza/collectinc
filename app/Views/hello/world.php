@@ -1,21 +1,34 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
 
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Montserrat">
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
 <br>
 <br>
 <br>
 
-<div class="container-fluid padding">
-    <div class="row padding">
-        <div class="col-lg-6">
-            <h1>Collect your food waste</h1>
-            <h1>Combat climate change</h1>
-        </div>
-        <div class="col-lg-6">
-            <img src="<?= base_url("img/1.PNG") ?>" class="img-fluid">
+<section id="judul">
+    <div class="container-fluid padding">
+         <div class="row padding">
+            <div class="col-lg-6">
+                <h1 class="animate__animated animate__fadeInDown animate__slow">Collect your food waste</h1>
+                <h1 class="animate__animated animate__fadeInDown animate__slow">Combat climate change</h1>
+            </div>
+            <div class="col-lg-6">
+                <img src="<?= base_url("img/1.PNG") ?>" class="img-fluid animate__animated animate__zoomIn">
+            </div>
         </div>
     </div>
-</div>
+</section>
+
 
 <br>
 <hr>
@@ -26,7 +39,7 @@
 <div class="container-fluid padding">
     <div class="row welcome text-center">
         <div class="col-12">
-            <h1 class="disyplay-4">How Collect.inc Works</h1>
+            <h1 class="animate__animated animate__flipInX">How Collect.inc Works</h1>
         </div>
     </div>
 </div>

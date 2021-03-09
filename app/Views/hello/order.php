@@ -51,37 +51,28 @@ $submit = [
                 <hr class="mt-1">
             </div>
             <div class="col-12">
-
+                <?= form_open('Barang/order') ?>
                 <div class="row mt-3 mx-4">
                     <div class="col-12">
                         <label class="order-form-label">Adress</label>
                     </div>
-                    <?= form_open('Barang/order') ?>
                     <div class="form-control">
                         <?= form_label("Street Adress", 'alamat_jalan')  ?>
-                        <?= form_radio($alamat_jalan) ?>
-                    </div>
-                    <div class="form-control">
+                        <?= form_input($alamat_jalan) ?>
                         <?= form_label("City", 'alamat_kota')  ?>
-                        <?= form_radio($alamat_kota) ?>
+                        <?= form_input($alamat_kota) ?>
+                        <?= form_label("Region", 'alamat_kecamatan')  ?>
+                        <?= form_input($alamat_kecamatan) ?>
+                        <?= form_label("Sub-District", 'alamat_kelurahan')  ?>
+                        <?= form_input($alamat_kelurahan) ?>
+                        <?= form_label("ZIP/ Postal Code", 'alamat_kode_pos')  ?>
+                        <?= form_input($alamat_kode_pos) ?>
+                        <div class="text-right mt-4">
+                            <?= form_submit($submit) ?>
+                        </div>
                     </div>
-                    <div class="form-control">
-                        <?= form_label("Street Adress", 'alamat_kecamatan')  ?>
-                        <?= form_radio($alamat_kecamatan) ?>
-                    </div>
-                    <div class="form-control">
-                        <?= form_label("Street Adress", 'alamat_kelurahan')  ?>
-                        <?= form_radio($alamat_kelurahan) ?>
-                    </div>
-                    <div class="form-control">
-                        <?= form_label("Street Adress", 'alamat_kode_pos')  ?>
-                        <?= form_radio($alamat_kode_pos) ?>
-                    </div>
-                    <div class="text-right">
-                        <?= form_submit($submit) ?>
-                    </div>
-                    <?= form_close() ?>
                 </div>
+                <?= form_close() ?>
             </div>
         </div>
     </div>

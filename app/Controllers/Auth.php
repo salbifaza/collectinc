@@ -10,6 +10,7 @@ class Auth extends BaseController
         $this->validation = \Config\Services::validation();
         $this->session = session();
     }
+
     public function register()
     {
         if ($this->request->getPost()) {

@@ -1,13 +1,49 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
 
+<?php
+$alamat_jalan = [
+    'name' => 'alamat_jalan',
+    'id' => 'alamat_jalan',
+    'class' => 'form-control',
+];
 
-<link href="<?= base_url('style/order.css') ?>" rel="stylesheet">
-<script src="<?= base_url('js/order.js') ?>"></script>
+$alamat_kota = [
+    'name' => 'alamat_kota',
+    'id' => 'alamat_kota',
+    'class' => 'form-control',
+];
 
-<section class="order-form my-4 mx-4">
+$alamat_kecamatan = [
+    'name' => 'alamat_kecamatan',
+    'id' => 'alamat_kecamatan',
+    'class' => 'form-control',
+];
+
+$alamat_kelurahan = [
+    'name' => 'alamat_kelurahan',
+    'id' => 'alamat_kelurahan',
+    'class' => 'form-control',
+];
+
+$alamat_kode_pos = [
+    'name' => 'alamat_kode_pos',
+    'id' => 'alamat_kode_pos',
+    'class' => 'form-control',
+];
+
+$submit = [
+    'name' => 'submit',
+    'id' => 'submit',
+    'value' => 'Submit',
+    'class' => 'btn btn-dark',
+    'type' => 'submit',
+];
+
+?>
+
+<div class="order-form my-4 mx-4">
     <div class="container pt-4">
-
         <div class="row">
             <div class="col-12">
                 <h1>You can see my Order Form</h1>
@@ -16,88 +52,39 @@
             </div>
             <div class="col-12">
 
-                <div class="row mx-4">
-                    <div class="col-12 mb-2">
-                        <label class="order-form-label">Name</label>
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <input class="order-form-input" placeholder="First">
-                    </div>
-                    <div class="col-12 col-sm-6 mt-2 mt-sm-0">
-                        <input class="order-form-input" placeholder="Last">
-                    </div>
-                </div>
-
-                <div class="row mt-3 mx-4">
-                    <div class="col-12">
-                        <label class="order-form-label">Type of thing you want to order</label>
-                    </div>
-                    <div class="col-12">
-                        <input class="order-form-input" placeholder=" ">
-                    </div>
-                </div>
-
-                <div class="row mt-3 mx-4">
-                    <div class="col-12">
-                        <label class="order-form-label">Another type of thing you want to order</label>
-                    </div>
-                    <div class="col-12">
-                        <input class="order-form-input" placeholder=" ">
-                    </div>
-                </div>
-
-
-                <div class="row mt-3 mx-4">
-                    <div class="col-12">
-                        <label class="order-form-label" for="date-picker-example">Date</label>
-                    </div>
-                    <div class="col-12">
-                        <input class="order-form-input datepicker" placeholder="Selected date" type="text" id="date-picker-example">
-                    </div>
-                </div>
-
                 <div class="row mt-3 mx-4">
                     <div class="col-12">
                         <label class="order-form-label">Adress</label>
                     </div>
-                    <div class="col-12">
-                        <input class="order-form-input" placeholder="Street Address">
+                    <?= form_open('Barang/order') ?>
+                    <div class="form-control">
+                        <?= form_label("Street Adress", 'alamat_jalan')  ?>
+                        <?= form_radio($alamat_jalan) ?>
                     </div>
-                    <div class="col-12 mt-2">
-                        <input class="order-form-input" placeholder="Street Address Line 2">
+                    <div class="form-control">
+                        <?= form_label("City", 'alamat_kota')  ?>
+                        <?= form_radio($alamat_kota) ?>
                     </div>
-                    <div class="col-12 col-sm-6 mt-2 pr-sm-2">
-                        <input class="order-form-input" placeholder="City">
+                    <div class="form-control">
+                        <?= form_label("Street Adress", 'alamat_kecamatan')  ?>
+                        <?= form_radio($alamat_kecamatan) ?>
                     </div>
-                    <div class="col-12 col-sm-6 mt-2 pl-sm-0">
-                        <input class="order-form-input" placeholder="Region">
+                    <div class="form-control">
+                        <?= form_label("Street Adress", 'alamat_kelurahan')  ?>
+                        <?= form_radio($alamat_kelurahan) ?>
                     </div>
-                    <div class="col-12 col-sm-6 mt-2 pr-sm-2">
-                        <input class="order-form-input" placeholder="Postal / Zip Code">
+                    <div class="form-control">
+                        <?= form_label("Street Adress", 'alamat_kode_pos')  ?>
+                        <?= form_radio($alamat_kode_pos) ?>
                     </div>
-                    <div class="col-12 col-sm-6 mt-2 pl-sm-0">
-                        <input class="order-form-input" placeholder="Country">
+                    <div class="text-right">
+                        <?= form_submit($submit) ?>
                     </div>
+                    <?= form_close() ?>
                 </div>
-
-                <div class="row mt-3 mx-4">
-                    <div class="col-12">
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" name="validation" id="validation" value="1">
-                            <label for="validation" class="form-check-label">I know what I need to know</label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mt-3">
-                    <div class="col-12">
-                        <button type="button" id="btnSubmit" class="btn btn-dark d-block mx-auto btn-submit">Submit</button>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
-</section>
+</div>
 
 <?= $this->endSection() ?>

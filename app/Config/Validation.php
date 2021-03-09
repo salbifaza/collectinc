@@ -108,4 +108,21 @@ class Validation
 			'required' => 'Password Harus Diisi',
 		],
 	];
+	public $barang = [
+		'tipe' => [
+			'rules' => 'required',
+		],
+		'penerima' => [
+			'rules' => 'required',
+		],
+		'alamat_jalan' => [
+			'rules' => 'required',
+		],
+		'alamat_kota' => [
+			'rules' => 'required',
+		],
+		'alamat_kecamatan' => [
+			'rules' => 'required',
+		],
+	];
 }

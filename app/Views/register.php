@@ -48,6 +48,7 @@ $repeatPassword = [
 $session = session();
 $errors = $session->getFlashdata('errors');
 ?>
+
 <div class="container">
     <div class="row">
         <div class="col-sm-9 col-md7 col-lg-5 mx-auto">

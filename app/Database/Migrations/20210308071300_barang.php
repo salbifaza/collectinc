@@ -14,26 +14,36 @@ class Barang extends \CodeIgniter\Database\Migration
                 'unsigned' => TRUE,
                 'auto_increment' => TRUE
             ],
-            'nama' => [
+            'tipe' => [
                 'type' => 'TEXT',
             ],
-            'harga' => [
-                'type' => 'INT',
-                'constraint' => 11,
+            'penerima' => [
+                'type' => 'TEXT',
             ],
-            'stok' => [
-                'type' => 'INT',
-                'constraint' => 11,
+            'alamat_jalan' => [
+                'type' => 'TEXT',
             ],
-            'gambar' => [
+            'alamat_kota' => [
+                'type' => 'TEXT',
+            ],
+            'alamat_kecamatan' => [
+                'type' => 'TEXT',
+            ],
+            'alamat_kelurahan' => [
+                'type' => 'TEXT',
+            ],
+            'alamat_jalan' => [
+                'type' => 'TEXT',
+            ],
+            'alamat_kode_pos' => [
+                'type' => 'TEXT',
+            ],
+            'created_date' => [
                 'type' => 'TEXT'
             ],
             'created_by' => [
                 'type' => 'INT',
                 'constraint' => 11,
-            ],
-            'created_date' => [
-                'type' => 'DATETIME'
             ],
             'updated_by' => [
                 'type' => 'INT',
